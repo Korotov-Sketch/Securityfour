@@ -1,5 +1,5 @@
 import java.io.*;
-
+//
 public class Encryptionator {
     public static void main(String[] args) throws Exception {
         FileInputStream inputIO = new FileInputStream("src/main/resources/Word.txt");

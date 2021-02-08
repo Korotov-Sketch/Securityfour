@@ -15,7 +15,6 @@ public class Decodonator {
                 textWithWord.append("\n" + line);
             }
         }
-        readerTextWithWord.close();
 
         StringBuilder stringBits = new StringBuilder();
         char[] textWithWordChars = textWithWord.toString().toCharArray();
